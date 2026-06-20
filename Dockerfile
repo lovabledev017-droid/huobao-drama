@@ -53,6 +53,6 @@ ENV NODE_ENV=production
 ENV PORT=5679
 
 EXPOSE 5679
-VOLUME ["/app/data"]
+
 
 CMD ["tsx", "backend/src/index.ts"]
